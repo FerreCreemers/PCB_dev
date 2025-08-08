@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8a20ec19-5ddc-4fb8-87e4-eca44506b4b3")
+	(paper "A4")
+	(title_block
+		(title "MCU")
+		(date "2025-08-08")
+		(rev "V1")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
