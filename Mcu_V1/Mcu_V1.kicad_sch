@@ -2605,6 +2605,12 @@
 		(uuid "286dbbea-5d5d-45a4-ac91-3399e8118783")
 	)
 	(junction
+		(at 50.8 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3404bc0d-5599-4254-8cd3-e8fd380c63d0")
+	)
+	(junction
 		(at 82.55 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2826,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 125.73) (xy 50.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3189ac23-a0fc-4584-84b4-b6934a1941a9")
+	)
+	(wire
+		(pts
 			(xy 255.27 66.04) (xy 267.97 66.04)
 		)
 		(stroke
@@ -2953,6 +2969,16 @@
 			(type default)
 		)
 		(uuid "4a53efd0-a6b9-4a4e-a232-d15bb3a67a52")
+	)
+	(wire
+		(pts
+			(xy 53.34 125.73) (xy 50.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef5dea0-82a0-460c-ba88-f4917080960c")
 	)
 	(wire
 		(pts
@@ -3233,6 +3259,16 @@
 			(type default)
 		)
 		(uuid "91d55ac0-f626-4863-afbb-9a1b19e3766a")
+	)
+	(wire
+		(pts
+			(xy 50.8 123.19) (xy 50.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94059e90-9886-43a7-afa8-1a124e4b9df2")
 	)
 	(wire
 		(pts
@@ -4085,7 +4121,7 @@
 		(uuid "ee83e5cb-8172-4b57-a159-d061a55e9bec")
 	)
 	(label "Vcc"
-		(at 50.8 130.81 0)
+		(at 53.34 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4871,6 +4907,72 @@
 			(project ""
 				(path "/8a20ec19-5ddc-4fb8-87e4-eca44506b4b3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 50.8 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b43b6f0-5b34-467e-a33d-0a09fb285f75")
+		(property "Reference" "#FLG03"
+			(at 50.8 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0314c57c-c759-4c91-88e4-e34cfe60b738")
+		)
+		(instances
+			(project "Mcu_V1"
+				(path "/8a20ec19-5ddc-4fb8-87e4-eca44506b4b3"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7047,16 +7149,6 @@
 				(justify left)
 			)
 		)
-		(pin "VCC" passive
-			(at 189.23 120.65 180)
-			(uuid "f0455d13-c887-4753-9fb6-03e8a3391735")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SDA" bidirectional
 			(at 189.23 132.08 180)
 			(uuid "d4bb7086-8ef4-4e45-94f4-d5113abf8dd5")
@@ -7185,6 +7277,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Vcc" passive
+			(at 189.23 120.65 180)
+			(uuid "4edc79a4-0812-4ef2-b6cb-74242b9f127c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
