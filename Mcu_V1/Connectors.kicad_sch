@@ -981,17 +981,6 @@
 		)
 		(uuid "05ae4f57-a7e1-4f32-a381-cb4708f1a6e0")
 	)
-	(hierarchical_label "Vcc"
-		(shape passive)
-		(at 88.9 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a42f30d-6390-4b0e-bd16-29c9c26455b8")
-	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 123.19 78.74 0)
@@ -1156,6 +1145,17 @@
 			(justify right)
 		)
 		(uuid "cf94ee5f-75df-4a30-8548-62ae2e4ec672")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 88.9 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfed41e5-bf8f-4e2c-9254-ecc5562f69b2")
 	)
 	(hierarchical_label "D5"
 		(shape bidirectional)
