@@ -3691,6 +3691,16 @@
 		(uuid "0ac9b3bb-672d-4d15-ae4a-32c3fb4f1042")
 	)
 	(label "Vcc"
+		(at 267.97 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b319495-4b8c-4270-8672-6be57369b120")
+	)
+	(label "Vcc"
 		(at 102.87 29.21 0)
 		(effects
 			(font
@@ -5410,7 +5420,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6a195a2-68fe-45ac-a156-312a343166c0")
+			(uuid "d6a195a2-68fe-45ac-a156-312a343166c1")
 		)
 		(instances
 			(project ""
